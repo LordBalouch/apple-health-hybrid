@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Apple Health project (privacy & big files) ---
+# Keep raw data + generated tables out of git
+data_private/
+export.xml
+export.zip
+
+# Large outputs
+*.duckdb
+*.db
+*.parquet
+*.csv
+*.csv.gz
+
+# BI binaries (we'll commit screenshots instead)
+*.pbix
+*.twb
+*.twbx
