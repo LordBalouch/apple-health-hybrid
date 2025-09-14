@@ -223,3 +223,7 @@ export.zip
 *.pbix
 *.twb
 *.twbx
+
+# allow public sample data for the README/demo
+!data_sample/
+!data_sample/*.csv
