@@ -15,3 +15,17 @@ Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible an
 
 ## Repo structure
 
+## Tableau (Part 2)
+
+Public link: [Apple Health — Tableau Public](https://public.tableau.com/views/AppleHealthcare2025Mac/AppleHealth?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Screens (from Tableau Public):
+![Overview](dashboards/tableau/overview.png)
+![Workouts](dashboards/tableau/workouts.png)
+![Seasonality](dashboards/tableau/seasonality.png)
+![Weekday](dashboards/tableau/weekday.png)
+![Streaks](dashboards/tableau/streaks.png)
+
+**Why build both:** same dataset, different workflows — DAX vs Table Calcs (e.g., 7/28-day with `WINDOW_AVG`), star schema vs relationships, formatting & UX differences.
+
+More notes: [docs/TABLEAU_NOTES.md](docs/TABLEAU_NOTES.md)
