@@ -15,7 +15,7 @@ Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible an
 
 ## Key findings
 
-<!-- Replace these with REAL numbers from your own dashboard. Delete the lines you can't fill in. -->
+
 - Steps were about __% lower in winter (Nov–Feb) than in summer.
 - Most active weekday: ____ · least active: ____.
 - Longest daily activity streak: ___ days.
