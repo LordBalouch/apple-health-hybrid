@@ -1,25 +1,43 @@
 # apple-health-hybrid
-Private Apple Health Data
- 
-**Python ETL • DuckDB SQL • Power BI (Tableau coming next)**
+
+Reproducible analytics on a 1.8 GB Apple Health export: Python ETL → DuckDB SQL marts → Power BI & Tableau. The raw data is git-ignored; sample CSVs are included so anyone can run it.
+
+**Python ETL • DuckDB SQL • Power BI • Tableau**
 
 Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible analytics project:
+
 - **ETL (Python):** stream-parse XML → tidy **steps** & **workouts** tables
 - **SQL (DuckDB):** model daily marts + **monthly**, **weekday**, **streaks**
-- **BI (Power BI):** 5 pages with trends, seasonality, workout mix, and streaks  
-- **Tableau:** Part 2 (rebuild the same pages to compare workflows)
+- **BI (Power BI):** 5 pages with trends, seasonality, workout mix, and streaks
+- **Tableau:** the same pages rebuilt to compare workflows and tools
 
-> **Privacy first:** The raw Apple Health export lives in `data_private/` and is git-ignored. The repo includes only small **sample CSVs** in `data_sample/` so others can run the dashboards.
+> **Privacy first:** The raw Apple Health export lives in `data_private/` and is git-ignored — it is never committed. The repo includes only small **sample CSVs** in `data_sample/` so others can run the dashboards.
 
----
+## Key findings
+
+<!-- Replace these with REAL numbers from your own dashboard. Delete the lines you can't fill in. -->
+- Steps were about __% lower in winter (Nov–Feb) than in summer.
+- Most active weekday: ____ · least active: ____.
+- Longest daily activity streak: ___ days.
+
+<!-- Drag your dashboard screenshot into the editor right here -->
 
 ## Repo structure
 
-## Tableau (Part 2)
+```
+apple-health-hybrid/
+├── src/            # Python ETL + DuckDB SQL (XML → tidy tables → marts)
+├── data_sample/    # small sample CSVs so anyone can run the dashboards
+├── data_private/   # raw export.xml (git-ignored, never committed)
+├── dashboards/     # Power BI & Tableau files + screenshots
+├── docs/           # notes, e.g. TABLEAU_NOTES.md
+├── requirements.txt
+└── README.md
+```
 
-Public link: [Apple Health — Tableau Public](https://public.tableau.com/views/AppleHealthcare2025Mac/AppleHealth?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Tableau
 
-
+Public link: [Apple Health — Tableau Public](https://public.tableau.com/views/AppleHealthcare2025Mac/AppleHealth)
 
 **Why build both:** same dataset, different workflows — DAX vs Table Calcs (e.g., 7/28-day with `WINDOW_AVG`), star schema vs relationships, formatting & UX differences.
 
