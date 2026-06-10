@@ -23,7 +23,6 @@ One year of data (Aug 2024 – Aug 2025): **4.2M steps total**, **11.5K steps/da
 
 
 ![Power BI – seasonality](dashboards/powerbi/Screenshot%202025-09-14%20212059.png)
-![Power BI – workout mix](dashboards/powerbi/Screenshot%202025-09-14%20212122.png)
 ![Power BI – streaks](dashboards/powerbi/Screenshot%202025-09-14%20212132.png)
 
 ## Repo structure
@@ -41,7 +40,7 @@ apple-health-hybrid/
 │   └── tableau/              # Tableau screenshots / notes
 ├── requirements.txt
 └── README.md
-
+'''
 ## Tableau
 
 Public link: https://public.tableau.com/app/profile/babak.balouch5382/viz/AppleHealthcare2025Mac/AppleHealth
