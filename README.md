@@ -14,11 +14,12 @@ Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible an
 > **Privacy first:** The raw Apple Health export lives in `data_private/` and is git-ignored — it is never committed. The repo includes only small **sample CSVs** in `data_sample/` so others can run the dashboards.
 
 ## Key findings
+One year of data (Aug 2024 – Aug 2025): **4.2M steps total**, **11.5K steps/day** on average, across **145 workouts**.
 
-
-- Steps were about __% lower in winter (Nov–Feb) than in summer.
-- Most active weekday: ____ · least active: ____.
-- Longest daily activity streak: ___ days.
+- **A strong summer peak.** July 2025 was the standout month at ~560K steps — more than double the slower months (~240–280K). The 28-day rolling average climbed from roughly 8K/day in autumn to ~20K/day at the summer peak.
+- **Weekends beat weekdays.** Saturday was the most active day (~15K avg steps), Wednesday the least (~9K). Weekends averaged about 2K more steps/day than weekdays (13K vs 11K).
+- **A strength-led routine.** Workouts were built around traditional strength training, with regular yoga, bursts of martial arts, and the occasional walk or run — averaging 19 minutes per session.
+- **Consistency:** the longest daily-activity streak was 8 days (late Apr–early May 2025), and the best single day hit 38K steps.
 
 ![Power BI – overview](dashboards/powerbi/Screenshot%202025-09-14%20212038.png)
 ![Power BI – trends](dashboards/powerbi/Screenshot%202025-09-14%20212048.png)
