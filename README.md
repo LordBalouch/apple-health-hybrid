@@ -26,14 +26,17 @@ Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible an
 
 ```
 apple-health-hybrid/
-├── src/            # Python ETL + DuckDB SQL (XML → tidy tables → marts)
-├── data_sample/    # small sample CSVs so anyone can run the dashboards
-├── data_private/   # raw export.xml (git-ignored, never committed)
-├── dashboards/     # Power BI & Tableau files + screenshots
-├── docs/           # notes, e.g. TABLEAU_NOTES.md
+├── src/
+│   ├── apple_health_etl.py   # stream-parse the 1.8 GB export.xml → tidy tables
+│   ├── load_duckdb.py        # load tidy data into DuckDB
+│   └── build_marts.py        # build daily / monthly / weekday / streak marts
+├── data_sample/              # small sample CSVs so anyone can run it
+├── data_private/             # raw export.xml (git-ignored, never committed)
+├── dashboards/
+│   ├── powerbi/              # Power BI screenshots
+│   └── tableau/              # Tableau screenshots / notes
 ├── requirements.txt
 └── README.md
-```
 
 ## Tableau
 
