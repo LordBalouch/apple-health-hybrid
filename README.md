@@ -45,8 +45,7 @@ apple-health-hybrid/
 
 ## Tableau
 
-Public link: [[Apple Health — Tableau Public](https://public.tableau.com/views/AppleHealthcare2025Mac/AppleHealth)](https://public.tableau.com/app/profile/babak.balouch5382/viz/AppleHealthcare2025Mac/AppleHealth)
-
+Public link: https://public.tableau.com/app/profile/babak.balouch5382/viz/AppleHealthcare2025Mac/AppleHealth
 **Why build both:** same dataset, different workflows — DAX vs Table Calcs (e.g., 7/28-day with `WINDOW_AVG`), star schema vs relationships, formatting & UX differences.
 
 
