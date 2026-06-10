@@ -20,7 +20,11 @@ Turned a large Apple Health export (~1.8 GB `export.xml`) into a reproducible an
 - Most active weekday: ____ · least active: ____.
 - Longest daily activity streak: ___ days.
 
-<!-- Drag your dashboard screenshot into the editor right here -->
+![Power BI – overview](dashboards/powerbi/Screenshot%202025-09-14%20212038.png)
+![Power BI – trends](dashboards/powerbi/Screenshot%202025-09-14%20212048.png)
+![Power BI – seasonality](dashboards/powerbi/Screenshot%202025-09-14%20212059.png)
+![Power BI – workout mix](dashboards/powerbi/Screenshot%202025-09-14%20212122.png)
+![Power BI – streaks](dashboards/powerbi/Screenshot%202025-09-14%20212132.png)
 
 ## Repo structure
 
