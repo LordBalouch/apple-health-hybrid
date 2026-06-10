@@ -21,8 +21,7 @@ One year of data (Aug 2024 – Aug 2025): **4.2M steps total**, **11.5K steps/da
 - **A strength-led routine.** Workouts were built around traditional strength training, with regular yoga, bursts of martial arts, and the occasional walk or run — averaging 19 minutes per session.
 - **Consistency:** the longest daily-activity streak was 8 days (late Apr–early May 2025), and the best single day hit 38K steps.
 
-![Power BI – overview](dashboards/powerbi/Screenshot%202025-09-14%20212038.png)
-![Power BI – trends](dashboards/powerbi/Screenshot%202025-09-14%20212048.png)
+
 ![Power BI – seasonality](dashboards/powerbi/Screenshot%202025-09-14%20212059.png)
 ![Power BI – workout mix](dashboards/powerbi/Screenshot%202025-09-14%20212122.png)
 ![Power BI – streaks](dashboards/powerbi/Screenshot%202025-09-14%20212132.png)
